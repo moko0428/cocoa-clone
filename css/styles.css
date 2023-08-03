@@ -4,10 +4,14 @@
 /* components css */
 @import "./components/status-bar.css";
 @import "./components/nav-bar.css";
+@import "./components/screen-header.css";
+@import "./components/user-component.css";
 
 /* screens css */
 @import "./screens/login.css";
+@import "./screens/friends.css";
 
 body {
   font-family: "메이플스토리";
+  color: var(--black);
 }
