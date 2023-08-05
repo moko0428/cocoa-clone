@@ -1,6 +1,7 @@
 :root {
   --main-color: #ffcd01;
-  --border-opacitive: rgba(0, 0, 0, 0.4);
+  --border-opacitive: rgba(0, 0, 0, 0.5);
   --black: #2e363e;
   --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
 }
