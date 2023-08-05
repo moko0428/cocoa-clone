@@ -1,0 +1,34 @@
+.badge {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+.dot {
+  background-color: tomato;
+  width: 12px;
+  height: 12px;
+  color: tomato;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.urgent {
+  background-color: white;
+  border: 1px solid tomato;
+  padding: 5px;
+  color: tomato;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
