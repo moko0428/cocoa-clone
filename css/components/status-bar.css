@@ -17,6 +17,18 @@
   display: flex;
   justify-content: center;
 }
+@keyframes lighting {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(30deg);
+  }
+}
+.fa-bolt {
+  animation: lighting 1s ease-in-out infinite;
+  color: var(--main-color);
+}
 .status-bar__column:last-child {
   display: flex;
   justify-content: flex-end;
